@@ -1,3 +1,9 @@
+# Libs
+* bokeh 
+* flask
+* numpy
+* multiprocessing
+
 # WirelessAPs
 WirelessAPs
 
@@ -51,3 +57,24 @@ MyAP's SNR changed 63  to  82
 YourAP's Channel changed 1  to  6
 HerAP is added to the list with SNR 71 and channel 1
 ````
+
+
+## Visualize
+
+You can also visualize the JSON file as a bar chart rendered in the GUI.
+
+````
+cd flask/
+python3 app.py
+````
+
+When application starts;
+
+Go to ->
+````
+http://localhost:8000/graph
+````
+When you edit **access_points.json** and refresh the page, graphs are interactive.
+
+See the example graph below;
+
