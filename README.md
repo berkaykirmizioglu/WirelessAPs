@@ -77,4 +77,5 @@ http://localhost:8000/graph
 When you edit **access_points.json** and refresh the page, graphs are interactive.
 
 See the example graph below;
+![Image of Visual GUI](https://i.imgur.com/orXJ0mz.png)
 
