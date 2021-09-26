@@ -1,9 +1,3 @@
-# Libs
-* bokeh 
-* flask
-* numpy
-* multiprocessing
-
 # WirelessAPs
 WirelessAPs
 
